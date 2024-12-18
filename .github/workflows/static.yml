@@ -1,0 +1,426 @@
+<html lang="cs">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Osobní Stránka
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            background-attachment: fixed;
+            color: white;
+        }
+  </style>
+ </head>
+
+
+ <body>
+    
+    <audio id="background-music" autoplay loop>
+        <source src="Night Lovell - Trees Of The Valley.mp4" type="audio/mp4">
+    </audio>
+
+
+  <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 shadow-lg">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">
+     Kulíšek Matěj
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#o-mne">
+        O Mne
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#hardware">
+        Hardware
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#projekty">
+        Projekty
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#moje-ip">
+        Moje IP
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#aktualni-cas">
+        Aktuální Cas
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#pocasi">
+        Pocasí
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="my-8" id="o-mne">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     O Mne
+    </h2>
+    <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
+     <img alt="Fotografie me, jak pracuji na svém notebooku" class="w-48 h-48 object-cover rounded-full mb-4 md:mb-0 md:mr-6" height="200" src="IMG_3201.PNG" width="200"/>
+     <p class="text-lg">
+      Jmenuji se Matěj Kulíšek a jsem vášnivý vývojář webový stránek. Mám rád technologie a neustále se učím nové věci. Specializuji se na webový vývoj a kyberbezpečnost mám zkušenosti s ruznými programovacími jazyky. Ve svém volném čase rád cvičím a cestuju.
+     </p>
+    </div>
+   </section>
+   <section class="my-8" id="hardware">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     Muj Hardware
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mého notebooku Dell XPS 15" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://cdn.myshoptet.com/usr/www.iphonarna.cz/user/shop/big/14390_apple-macbook-air-13-6-2022--m2-8gb-256gb-temne-inkoustovy.png?63e7cb78" width="200"/>
+      <h3 class="text-2xl font-bold mb-2">
+        MacBook Air 13" M3 CZ 2024 Temně inkoustový
+      </h3>
+      <p>
+       Používám tento notebook pro vývoj a testování mých projektu. Má výkonný procesor a dostatek paměti RAM pro multitasking.
+      </p>
+     </div>
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mého monitoru LG UltraWide" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://image.alza.cz/products/WA043bc10b/WA043bc10b.jpg?width=500&height=500" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Monitor 27" ASUS ROG Strix XG27AQMR
+      </h3>
+      <p>
+       tyto monitory vlastním 3 a poskytují mi dostatek prostoru pro práci s více okny najednou, což zvyšuje moji produktivitu.
+      </p>
+     </div>
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mé klávesnice Logitech MX Keys" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://image.alza.cz/products/Gm10d5/Gm10d5.jpg?width=500&height=500" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Klávesnice Glorious GMMK TKL White Ice Edition - Gateron-Brown, bílá - US
+      </h3>
+      <p>
+       Ergonomická a pohodlná klávesnice, která mi umožnuje psát rychle a efektivne.
+      </p>
+     </div>
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mé myši Logitech MX Master 3" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://image.alza.cz/products/DS995a1d4/DS995a1d4.jpg?width=500&height=500" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Myš HyperX Pulsefire Haste Wireless Gaming Mouse White
+      </h3>
+      <p>
+       Vysoce presná a ergonomická myš, která mi pomáhá pri navigaci a práci na projektech.
+      </p>
+     </div>
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mého externího disku Samsung T5" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1fdaxzjFPc0LJCWlxvF312h5m29VB0ZGKUeAfIDLffKwcIpeE.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Externí disk Samsung T5
+      </h3>
+      <p>
+       Rychlý a spolehlivý externí disk pro zálohování a prenos dat.
+      </p>
+     </div>
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Fotografie mého sluchátek Sony WH-1000XM4" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://image.alza.cz/products/DS993l4/DS993l4-02.jpg?width=500&height=500" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Sluchátka HyperX Cloud II
+      </h3>
+      <p>
+       sluchátka s potlačením hluku, která mi umožnují soustředit se na práci bez rušení.
+      </p>
+     </div>
+        
+ 
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+        <img alt="Fotografie mého externího disku Samsung T5" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://cdn.myshoptet.com/usr/www.digifit.cz/user/shop/big/25184_obrazek--2.jpg?67423e5f" width="300"/>
+        <h3 class="text-2xl font-bold mb-2">
+         iPhone 7
+        </h3>
+        <p>
+        Můj první iPhone.
+        </p>
+     </div>
+
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+            <img alt="Fotografie mého externího disku Samsung T5" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://doc.iwant.cz/pic/4S39000601-600-600.jpg" width="300"/>
+            <h3 class="text-2xl font-bold mb-2">
+            iPhone 15 Pro
+            </h3>
+            <p>
+            Můj druý iPhone.
+            </p>
+        </div>
+        
+        
+
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+            <img alt="Fotografie mého sluchátek Sony WH-1000XM4" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://istyle.cz/media/catalog/product/i/p/iphone_16_pro_max_desert_titanium_pdp_image_position_1__cs-cz_2.jpg" width="300"/>
+            <h3 class="text-2xl font-bold mb-2">
+            iPhone 16 Pro Max
+            </h3>
+            <p>
+            Můj třetí iPhone.
+            </p>
+        </div>
+        
+</section>
+   <section class="my-8" id="projekty">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     Moje Projekty
+    </h2>
+
+    <a href="http://kulisekmatej.borec.cz/chata.html">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+        <img alt="Náhled projektu webové aplikace pro správu úkolu" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://www.e-chalupy.cz/vysocina/_11693/chata-tasice-e580-.jpeg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Webová stránka pro booking chaty
+      </h3>
+      <p>
+       Vyvinul jsem tento web pro efektivní booking. Umožnuje uživatelum vytvořit si rezervaci na chatě.
+      </p>
+     </div>
+     </a>
+
+     <a href="http://kulisekmatej.borec.cz/Formular.html">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Náhled projektu mobilní aplikace pro sledování fitness aktivit" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://cdn.myshoptet.com/usr/shop.jobka.cz/user/shop/big/85_formular-na-miru.jpg?65f17919" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+      Formulář
+      </h3>
+      <p>
+       Formulář pro zadání hodnot.
+      </p>
+     </div>
+    </a>
+
+    <a href="http://kulisekmatej.borec.cz/Formular.html">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Náhled projektu e-commerce platformy" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://mozkolam.cz/wp-content/uploads/2018/07/ctverec.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Kostka
+      </h3>
+      <p>
+      Tato webová stránka zobrazuje uživatelům šedou kostku.
+      </p>
+     </div>
+     </a>
+
+     <a href="http://kulisekmatej.borec.cz/Formular.html">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Náhled projektu blogovací platformy" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://mozkolam.cz/wp-content/uploads/2018/07/ctverec.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Kostka podle uživatele
+      </h3>
+      <p>
+       tato webová stránka dovolí uživatelům vytvořit si svoji vlastní kostku.
+      </p>
+     </div>
+     </a>
+
+     <a href="http://kulisekmatej.borec.cz/Formular.html">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Náhled projektu nástroje pro analýzu dat" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkors8DamNM5xfQdPVwWEaCFIZA4_dk_JPRg&s" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Kalkulačka
+      </h3>
+      <p>
+       Vyvinul jsem obyčejnou kalkulačku.
+      </p>
+     </div>
+     </a>
+
+     <a href="http://kulisekmatej.borec.cz/bmi.php">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+      <img alt="Náhled projektu systému pro správu obsahu" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://www.budsvuj.cz/wp-content/uploads/2024/01/BMI-kalkulacka-1.webp" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Kalkulačka BMI
+      </h3>
+      <p>
+       BMI kalkulačka.
+      </p>
+     </div>
+    </a>
+
+     <a href="http://kulisekmatej.borec.cz/deleni_cisel.php">
+     <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+        <img alt="Náhled projektu systému pro správu obsahu" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://naklavesnici.cz/wp-content/uploads/2020/08/deleno.jpg" width="300"/>
+        <h3 class="text-2xl font-bold mb-2">
+         Dělitelnost čísel
+        </h3>
+        <p>
+         Tato webová stránka ván zjistí čím se dané číslo dá dělit.
+        </p>
+       </div>
+     </a>
+
+        <a href="http://kulisekmatej.borec.cz/ahoj.php"> 
+       <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+        <img alt="Náhled projektu systému pro správu obsahu" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://www.itnetwork.cz/images/25272/sql/databaze.jpg" width="300"/>
+        <h3 class="text-2xl font-bold mb-2">
+         Databáze dat 
+        </h3>
+        <p>
+         Na této webové stránce jsou vypsány data z databáze.
+        </p>
+       </div>
+        </a>
+
+        <a href="http://kulisekmatej.borec.cz/h2.php">
+       <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
+        <img alt="Náhled projektu systému pro správu obsahu" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://www.itnetwork.cz/images/25272/sql/databaze.jpg" width="300"/>
+        <h3 class="text-2xl font-bold mb-2">
+         Databáze dat a možnost vkládat data
+        </h3>
+        <p>
+         Na této webové stránce jsou vypsány data z databáze a uživatel může vložit nové data do databáze.
+        </p>
+       </div>
+       </a>
+    </div>
+   </section>
+   <section class="my-8" id="moje-ip">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     Vaše IP
+    </h2>
+    <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg text-center">
+     <p class="text-lg">
+      Vaše IP adresa je:
+     </p>
+     <p class="text-2xl font-bold" id="ip-address">
+      Nacítání...
+     </p>
+    </div>
+   </section>
+   <section class="my-8" id="aktualni-cas">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     Aktuální Cas
+    </h2>
+    <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg text-center">
+     <p class="text-lg">
+      Aktuální cas je:
+     </p>
+     <p class="text-2xl font-bold" id="current-time">
+      Nacítání...
+     </p>
+    </div>
+   </section>
+   <section class="my-8" id="pocasi">
+    <h2 class="text-4xl font-bold mb-4 text-center">
+     Pocasí
+    </h2>
+    <div class="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg text-center">
+     <p class="text-lg">
+      Aktuální pocasí:
+     </p>
+     <p class="text-2xl font-bold" id="weather">
+      Nacítání...
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2024 Moje Osobní Stránka. Všechna práva vyhrazena.
+    </p>
+   </div>
+  </footer>
+  <script>
+      let player;
+
+// Inicializace YouTube API
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtube-player', {
+        videoId: '5souw4K5UQc', // ID videa z YouTube (změň na svůj odkaz)
+        events: {
+            'onReady': onPlayerReady,
+        },
+        playerVars: {
+            autoplay: 1,   // Automaticky přehrát video
+            loop: 1,       // Přehrávání ve smyčce
+            playlist: '5souw4K5UQc', // ID videa pro smyčku
+            controls: 0,   // Skryje ovládací prvky
+            modestbranding: 1, // Minimalizuje logo YouTube
+            showinfo: 0,
+            rel: 0         // Žádná doporučená videa po přehrání
+        }
+    });
+}
+
+// Spustí přehrávání, jakmile je přehrávač připraven
+function onPlayerReady(event) {
+    event.target.playVideo();
+}
+   // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    // Získání IP adresy uživatele
+    fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('ip-address').textContent = data.ip;
+        })
+        .catch(error => {
+            document.getElementById('ip-address').textContent = 'Nepodařilo se načíst IP adresu';
+            console.error('Chyba při získávání IP adresy:', error);
+        });
+
+    // Zobrazení aktuálního času
+    function updateTime() {
+        const now = new Date();
+        const timeString = now.toLocaleTimeString();
+        document.getElementById('current-time').textContent = timeString;
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    // Získání počasí na základě polohy uživatele
+    function fetchWeather(latitude, longitude) {
+        const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY'; // Nahraď svým OpenWeatherMap API klíčem
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}&lang=cs`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const weatherDescription = data.weather[0].description;
+                const temperature = data.main.temp;
+                document.getElementById('weather').textContent = `${weatherDescription}, ${temperature}°C`;
+            })
+            .catch(error => {
+                document.getElementById('weather').textContent = 'Nepodařilo se načíst počasí';
+                console.error('Chyba při získávání počasí:', error);
+            });
+    }
+
+    // Získání geolokace uživatele
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+                fetchWeather(position.coords.latitude, position.coords.longitude);
+            },
+            error => {
+                document.getElementById('weather').textContent = 'Nepodařilo se získat polohu';
+                console.error('Chyba při získávání polohy:', error);
+            }
+        );
+    } else {
+        document.getElementById('weather').textContent = 'Geolokace není podporována';
+    }
+  </script>
